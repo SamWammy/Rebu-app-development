@@ -34,3 +34,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+***********************************************************************************************
+
+This is a web application built using Next.js and React, with the following features:
+
+*User Authentication: Implemented using Clerk.
+*Location Search & Autocomplete: Powered by the Google Places API.
+Interactive Map & Routing: Uses the Google Maps API for rendering maps and directions.
+  
+ Tech Stack:
+Next.js + React
+JavaScript
+Clerk for authentication
+Google Maps & Places API
+Tailwind CSS (or specify your styling solution if applicable)
+
+ Features:
+User authentication and session management with Clerk.
+Search and autocomplete functionality for locations.
+Displays routes and directions between two points using Google Maps.
