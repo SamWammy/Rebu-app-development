@@ -12,16 +12,21 @@
     "@clerk/clerk-react": "^5.24.2",
     "@clerk/nextjs": "^6.12.5",
     "@clerk/shared": "^3.0.1",
+    "@react-google-maps/api": "^2.20.6",
     "next": "15.2.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-google-places-autocomplete": "^4.1.0",
+    "react-icons": "^5.5.0",
     "swr": "^2.3.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "22.13.10",
     "@types/react": "19.0.10",
-    "tailwindcss": "^4",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.14",
     "typescript": "5.8.2"
   }
 }
