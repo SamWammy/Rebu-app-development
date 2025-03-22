@@ -12,7 +12,7 @@ const GooglePlacesAutocomplete = dynamic(
 function Inputitem({ placeholder, icon, type }) {
   const [value, setValue] = useState(null);
   const { setSource } = useContext(SourceContext);
-  const { setDestination } = useContext(DestinationContext); // Use setDestination consistently
+  const { setDestination } = useContext(DestinationContext);
 
   const getlatAndLng = (place, type) => {
     const placeId = place.value.place_id;
@@ -32,7 +32,7 @@ function Inputitem({ placeholder, icon, type }) {
           if (type === 'source') {
             setSource(location);
           } else {
-            setDestination(location); // Use setDestination consistently
+            setDestination(location); 
           }
         } else {
           console.error('Error fetching place details:', status);
