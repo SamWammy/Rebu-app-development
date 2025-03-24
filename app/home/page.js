@@ -8,8 +8,8 @@ import { useState, useEffect } from 'react';
 import { LoadScript } from '@react-google-maps/api';
 
 export default function HomePage() {
-  const [source, setSource] = useState(null); // Initialize as null or {}
-  const [destination, setDestination] = useState(null); // Initialize as null or {}
+  const [source, setSource] = useState(null); 
+  const [destination, setDestination] = useState(null); 
 
   useEffect(() => {
     console.log('Source:', source);
@@ -21,7 +21,7 @@ export default function HomePage() {
       <DestinationContext.Provider value={{ destination, setDestination }}>
         <LoadScript 
         libraries={['places']}
-        googleMapsApiKey='AIzaSyDkogCHb6-wezURcROsd6E2kpIaXcTPFco'>
+        googleMapsApiKey='removed from github for privacy'>
         <div className='p-6 grid grid-cols-1 md:grid-cols-3 gap-5'>
           <div>
             <SearchSection />
