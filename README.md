@@ -48,7 +48,7 @@ Next.js + React
 JavaScript
 Clerk for authentication
 Google Maps & Places API
-Tailwind CSS (or specify your styling solution if applicable)
+Tailwind CSS
 
  Features:
 User authentication and session management with Clerk.
